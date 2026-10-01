@@ -1,0 +1,190 @@
+{
+  "turnierplaner": {
+    "title": "Turnierplaner",
+    "desc": "Desktop-App zum einfachen Erfassen von Teilnehmern und zur automatisierten Durchführung von Qualifikationen sowie 8- und 16-Spieler-Turnieren.",
+    "context": "Bisherige Turnierverwaltung erfolgte manuell mit Stift & Papier. Bei steigender Teilnehmerzahl führte dies zu unübersichtlichem Administrationsaufwand und unruhigem Event-Ablauf mangels visueller Live-Anzeige.",
+    "goal": "Entwicklung einer plattformunabhängigen Desktop-Anwendung zur vollständigen Digitalisierung, Automatisierung und Live-Visualisierung des gesamten Turnierablaufs – von der Qualifikation bis zum Finale.",
+    "techStack": {
+      "frontend": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"],
+      "backend": [],
+      "desktopFramework": ["ElectronJS", "Node.js"],
+      "tools": []
+    },
+    "features": [
+      {
+        "heading": "Zwei-Fenster-System",
+        "text": "Trennung von Adminview-Fenster (Steuerung für den Veranstalter) und Mainview-Fenster (maximierte Live-Anzeige für Beamer/zweiten Bildschirm)."
+      },
+      {
+        "heading": "Dynamischer Hybrid-Turniermodus",
+        "text": "Flexibler Wechsel zwischen Qualifikationsrunde (sortierte Tabelle mit W/L/D-Statistik) und Turniermodus (klassische Turnierbäume für 8 oder 16 Personen)."
+      },
+      {
+        "heading": "Echtzeit-Synchronisation",
+        "text": "Sofortige Übertragung von Spielständen, Tabellen-Updates und Paarungen von Admin- auf Mainview mithilfe von IPC Renderer von Electron und Statemanagement von React."
+      },
+      {
+        "heading": "Persönliche Gestaltung",
+        "text": "Implementierung unterschiedlicher Themes und englische Version mit i18n."
+      }
+    ],
+    "images": [
+      {
+        "path": "../assets/tournament/tournament1.png",
+        "text": "Mainview - Qualifikation"
+      },
+      {
+        "path": "../assets/tournament/tournament2.png",
+        "text": "Adminview - Steuerung"
+      },
+      {
+        "path": "../assets/tournament/tournament3.png",
+        "text": "Mainview - Turnierbaum"
+      }
+    ],
+    "link": "https://github.com/wiilee/tournament-bracket-app"
+  },
+  "shiftmate": {
+    "title": "ShiftMate",
+    "desc": "Schichtplaner-App zur einfachen Erfassung von Arbeitszeiten und Schichten, inklusive automatischer Schätzung des voraussichtlichen Netto-Verdienstes.",
+    "context": "In vielen Arbeitsverhältnissen – insbesondere in Kleinbetrieben, der Gastronomie oder der Eventbranche – werden geleistete Arbeitszeiten vom Arbeitgeber oft fehlerhaft oder gar nicht erfasst. Beschäftigte greifen dabei häufig auf unstrukturierte Notizen zurück oder verzichten gänzlich auf eine eigene Dokumentation. Dies führt dazu, dass fehlerhafte oder fehlende Schichten nicht erkannt werden und bei Rückfragen keine verlässlichen Auskünfte gegeben werden können.",
+    "goal": "Entwicklung einer plattformunabhängigen Web-App zur präzisen Schichtverwaltung für Arbeitnehmer. Die Anwendung erfasst Arbeitszeiten, Pausen, Trinkgelder sowie Zuschläge und berechnet automatisch Gesamtarbeitsstunden und Netto-Verdienst. Ein integrierter Schichtverlauf und PDF-Export ermöglichen den verlässlichen Nachweis geleisteter Schichten gegenüber dem Arbeitgeber.",
+    "techStack": {
+      "frontend": ["HTML5", "CSS3", "Tailwind CSS", "TypeScript", "Vue.js"],
+      "backend": ["Node.js", "Express", "Supabase"],
+      "desktopFramework": [],
+      "tools": []
+    },
+    "features": [
+      {
+        "heading": "Authentifizierung",
+        "text": "Implementierung eines Registrierungs- und Login-Systems mit Supabase Auth zur geschützten Speicherung persönlicher Nutzer- und Schichtdaten."
+      },
+      {
+        "heading": "Präzise Zeiterfassung",
+        "text": "Eintragen von Arbeitszeiten mit Erfassung von Start-, Ende- und Pausenzeiten inklusive automatischer Berechnung der Gesamtarbeitsstunden mit Zuschläge- und Trinkgeldfunktion."
+      },
+      {
+        "heading": "Netto-Gehaltsschätzung",
+        "text": "Integrierter Rechner zur dynamischen Ermittlung des voraussichtlichen Netto-Verdienstes basierend auf den tatsächlich geleisteten Schichten."
+      },
+      {
+        "heading": "Schichtübersicht & Historie",
+        "text": "Strukturierte und übersichtliche Darstellung aller absolvierten Schichten zur Nachverfolgung der monatlichen Arbeit."
+      },
+      {
+        "heading": "PDF-Export für Nachweise",
+        "text": "Funktion zum Generieren und Exportieren von detaillierten Schicht-Berichten als PDF-Dokument zur Klärung von Abrechnungsunstimmigkeiten mit dem Arbeitgeber."
+      },
+      {
+        "heading": "Plattformunabhängigkeit",
+        "text": "Responsive Web-Anwendung zur mobilen und betriebssystemunabhängigen Nutzung direkt über den Browser ohne App-Installation."
+      }
+    ],
+    "images": [
+      {
+        "path": "../assets/shiftmate/shiftMate1.png",
+        "text": "ShiftMate - Übersicht Seite"
+      },
+      {
+        "path": "../assets/shiftmate/shiftMate2.png",
+        "text": "ShiftMate - Verlauf Seite"
+      },
+      {
+        "path": "../assets/shiftmate/shiftMate3.png",
+        "text": "ShiftMate - Schicht einfügen"
+      }
+    ],
+    "link": "https://myshiftmate.netlify.app"
+  },
+  "html2pdf": {
+    "title": "HTML2PDF Tool",
+    "desc": "Ein Tool zur flexiblen Gestaltung von A4-Dokumenten mit HTML, CSS und JavaScript. Es wandelt deine Code-Layouts direkt in sauber formatierte PDFs um.",
+    "context": "Klassische Textverarbeitungsprogramme wie MS Word, Google Docs oder Apple Pages sind für die Gestaltung präziser A4-Seiten oft sperrig und erfordern mühsame Mausbedienung. Icons und Grafiken lassen sich meist nur eingeschränkt einbinden und Anpassungen von Farbe oder Formatierung sind oft nur über den Umweg importierter JPGs möglich.",
+    "goal": "Ziel des Projekts ist die flexible Gestaltung von A4-Seiten auf Basis von HTML, CSS und JavaScript (Vue). Durch die volle JavaScript-Unterstützung lassen sich beispielsweise Daten-Arrays dynamisch per v-for-Schleife rendern. Dank der Anbindung etablierter Icon-Bibliotheken wie Lucide oder Material Icons können Symbole nahtlos eingebunden, skaliert und angepasst werden. Anstelle einer eigenständigen Anwendung wird ein Vite-Entwicklungsserver genutzt, um das Layout direkt in der bevorzugten IDE (z. B. VS Code) zu schreiben und Änderungen in Echtzeit im Browser einzusehen.",
+    "techStack": {
+      "frontend": ["HTML5", "CSS3", "Tailwind CSS", "TypeScript", "Vue.js"],
+      "backend": [],
+      "desktopFramework": [],
+      "tools": ["Vite", "Node.js", "VS Code"]
+    },
+    "features": [
+      {
+        "heading": "Codebasiertes Design",
+        "text": "Mit HTML, CSS und JavaScript erhältst du volle Kontrolle über Layout, Typografie und Abstände ohne die Grenzen klassischer Textverarbeitung – erweiterbar durch beliebige JS-Bibliotheken."
+      },
+      {
+        "heading": "Vorschau im A4-Format",
+        "text": "Direkte Live-Ansicht des Dokumentenlayouts im Browser mit exakter Skalierung auf die Proportionen einer echten A4-Seite."
+      },
+      {
+        "heading": "Einfacher PDF-Export",
+        "text": "Schnelle Umwandlung des gerenderten HTML-Layouts in ein druckfertiges PDF-Dokument über einen einfachen Button."
+      },
+      {
+        "heading": "Entwicklerzentrierter Workflow",
+        "text": "Nahtloses Zusammenspiel aus bevorzugter IDE (z. B. VS Code) für die Code-Eingabe und dem Browser als dynamischem Live-Monitor."
+      }
+    ],
+    "images": [
+      {
+        "path": "../assets/html2pdf/html2pdf1.png",
+        "text": "HTML2PDF - Webansicht"
+      },
+      {
+        "path": "../assets/html2pdf/html2pdf2.png",
+        "text": "VS Code - Code für A4 Seite"
+      },
+      {
+        "path": "../assets/html2pdf/html2pdf3.png",
+        "text": "Export PDF Ansicht"
+      }
+    ],
+    "link": "https://github.com/wiilee/htmlToPdf"
+  },
+  "kitu": {
+    "title": "KI-Projekt der TUB",
+    "desc": "Ein an der TU Berlin entwickeltes KI-Projekt zur Automatisierung von Zugentscheidungen im Spiel Racing Kings – inklusive eigener Webanwendung zur Echtzeit-Darstellung von Spielfeld und Spielverlauf.",
+    "context": "Im Rahmen des Projekts sollte eine KI-Wettkampfumgebung für die Strategiespiele „Racing Kings“ und „Jump Sturdy“ entwickelt werden, an deren Bereitstellung alle Teilnehmenden gemeinsam arbeiten sollten. Parallel dazu formierten sich die Teilnehmenden in 3er-Teams, um jeweils ein eigenes, autonom agierendes KI-Modell für eines der beiden Spiele zu implementieren.",
+    "goal": "Das übergeordnete Ziel war die Kombination aus Infrastruktur- und Modellentwicklung: Einerseits die gemeinsame Entwicklung einer zentralen Webplattform zum Hosten, Visualisieren und Auswerten der Spiele, andererseits die Konstruktion einer eigenen, kampffähigen und wettbewerbsstarken KI, die sich in automatisierten Turnieren erfolgreich gegen die Modelle der anderen Teams behaupten kann.",
+    "techStack": {
+      "frontend": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"],
+      "backend": ["Python", "Flask", "C", "MongoDB"],
+      "desktopFramework": [],
+      "tools": []
+    },
+    "features": [
+      {
+        "heading": "Authentifizierung",
+        "text": "Eigenständige Konzeption und Implementierung des Login-/Registrierungs-Systems für die Plattform."
+      },
+      {
+        "heading": "Visualisierung",
+        "text": "Mitwirkung bei der dynamischen Live-Darstellung des Racing-Kings-Spielfelds und der Spielfiguren."
+      },
+      {
+        "heading": "Leaderboard",
+        "text": "Entwicklung und Umsetzung eines Ranking-Systems zur Performance-Auswertung und Ranglisten-Darstellung der konkurrierenden KI-Modelle."
+      },
+      {
+        "heading": "KI-Entwicklung & Spieltheorie",
+        "text": "Konzeption und Implementierung eines autonomen KI-Modells in C innerhalb eines 3er-Teams. Fokus auf die Umsetzung des MiniMax-Algorithmus inklusive Alpha-Beta-Pruning zur effizienten Suchbaumreduzierung sowie Mitwirkung bei der Entwicklung der Heuristik."
+      }
+    ],
+    "images": [
+      {
+        "path": "../assets/kitu/KITU1.png",
+        "text": "Leaderboard"
+      },
+      {
+        "path": "../assets/kitu/KITU2.png",
+        "text": "Login/Registrierung"
+      },
+      {
+        "path": "../assets/kitu/KITU3.png",
+        "text": "Spielfeld für Racing Kings"
+      }
+    ],
+    "link": "https://git.tu-berlin.de/pjki"
+  }
+}
