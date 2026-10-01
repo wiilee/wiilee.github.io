@@ -81,13 +81,20 @@ export const Project = () => {
               <h1 className="text-xl md:text-2xl font-bold uppercase tracking-wider text-white mb-2">
                 <TypeAnimation
                   sequence={[
+                    "Loading .",
+                    300,
+                    "Loading ..",
+                    300,
+                    "Loading ...",
+                    300,
                     "Projekt:",
-                    1000,
+                    800,
                     "Projekt: " + data.title,
                     () => setIsFinished(true),
                   ]}
                   wrapper="span"
                   speed={30}
+                  omitDeletionAnimation={true}
                 />
               </h1>
               {data.desc && (

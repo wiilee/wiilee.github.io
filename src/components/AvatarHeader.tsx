@@ -31,13 +31,14 @@ export const AvatarHeader = () => {
         <p className="text-text-main leading-relaxed text-sm sm:text-base text-center sm:text-left">
           <TypeAnimation
             sequence={[
-              // 1. Erster Teil
-              "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. ",
-              600, // Pause 1 Sekunde
-
-              // 2. Erster + Zweiter Teil (wird nahtlos angehängt)
-              "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert. ",
-              600, // Pause 1 Sekunde
+              "Typing...",
+              800,
+              "Typing..",
+              800,
+              "Typing...",
+              800,
+              "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert.",
+              800, // Pause 1 Sekunde
 
               // 3. Gesamter Text
               "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert. Leidenschaft für Software, Disziplin aus dem Sport.",
@@ -47,8 +48,9 @@ export const AvatarHeader = () => {
             ]}
             wrapper="span"
             repeat={0}
-            speed={80}
+            speed={90}
             omitDeletionAnimation={true}
+            cursor={false}
           />
         </p>
 
