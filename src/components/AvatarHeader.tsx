@@ -27,7 +27,6 @@ export const AvatarHeader = () => {
           </div>
         </div>
 
-        {/* Beschreibung */}
         <p className="text-text-main leading-relaxed text-sm sm:text-base text-center sm:text-left">
           <TypeAnimation
             sequence={[
@@ -38,12 +37,8 @@ export const AvatarHeader = () => {
               "Typing...",
               800,
               "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert.",
-              800, // Pause 1 Sekunde
-
-              // 3. Gesamter Text
+              800,
               "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert. Leidenschaft für Software, Disziplin aus dem Sport.",
-
-              // Callback am Ende
               () => setIsFinished(true),
             ]}
             wrapper="span"
