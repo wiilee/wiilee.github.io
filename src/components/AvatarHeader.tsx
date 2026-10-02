@@ -30,15 +30,15 @@ export const AvatarHeader = () => {
         <p className="text-text-main leading-relaxed text-sm sm:text-base text-center sm:text-left">
           <TypeAnimation
             sequence={[
-              "Typing...",
+              " Typing...",
               800,
-              "Typing..",
+              " Typing..",
               800,
-              "Typing...",
+              " Typing...",
               800,
-              "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert.",
+              " Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert.",
               800,
-              "Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert. Leidenschaft für Software, Disziplin aus dem Sport.",
+              " Informatikstudent & Fullstack-Entwickler mit Unternehmer-Mindset. Durch Erfahrung als Kleinunternehmer und Werkstudent arbeite ich eigenverantwortlich, zuverlässig und lösungsorientiert. Leidenschaft für Software, Disziplin aus dem Sport.",
               () => setIsFinished(true),
             ]}
             wrapper="span"
