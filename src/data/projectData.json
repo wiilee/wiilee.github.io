@@ -98,7 +98,7 @@
     "link": "https://myshiftmate.netlify.app"
   },
   "html2pdf": {
-    "title": "HTML2PDF Tool",
+    "title": "HTML2PDF",
     "desc": "Ein Tool zur flexiblen Gestaltung von A4-Dokumenten mit HTML, CSS und JavaScript. Es wandelt deine Code-Layouts direkt in sauber formatierte PDFs um.",
     "context": "Klassische Textverarbeitungsprogramme wie MS Word, Google Docs oder Apple Pages sind für die Gestaltung präziser A4-Seiten oft sperrig und erfordern mühsame Mausbedienung. Icons und Grafiken lassen sich meist nur eingeschränkt einbinden und Anpassungen von Farbe oder Formatierung sind oft nur über den Umweg importierter JPGs möglich.",
     "goal": "Ziel des Projekts ist die flexible Gestaltung von A4-Seiten auf Basis von HTML, CSS und JavaScript (Vue). Durch die volle JavaScript-Unterstützung lassen sich beispielsweise Daten-Arrays dynamisch per v-for-Schleife rendern. Dank der Anbindung etablierter Icon-Bibliotheken wie Lucide oder Material Icons können Symbole nahtlos eingebunden, skaliert und angepasst werden. Anstelle einer eigenständigen Anwendung wird ein Vite-Entwicklungsserver genutzt, um das Layout direkt in der bevorzugten IDE (z. B. VS Code) zu schreiben und Änderungen in Echtzeit im Browser einzusehen.",
